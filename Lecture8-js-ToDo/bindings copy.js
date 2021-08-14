@@ -18,5 +18,5 @@ window.onload = function(){
     btn.onclick = function(){
         console.log("Handling Add New todo button");
     }
-    document.addEventListener()
+  
 }
