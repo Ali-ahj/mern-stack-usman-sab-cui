@@ -9,7 +9,7 @@ $(function () {
 function handleBtnClick() {
   // alert("btn clicked");
   var newTodo = $("#newTodo").val();
-  if (!newTodo) {
+  if (!newTodo) { 
     $("#newTodo").addClass("error");
     return;
   }
