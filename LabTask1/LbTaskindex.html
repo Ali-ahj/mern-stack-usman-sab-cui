@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Task 1</title>
+   <script src="./jquery-3.6.0.min.js"></script>
+   <script src="./task1.js"></script>
+   <link rel="stylesheet" href="./task1.css">
+</head>
+<body>
+    <div id="form" style="width: 30%;" style="float: inline-end">
+        <form action="">
+
+             <label for="name">Name  : </label>
+            <input type="text" id="name"><br><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="Female">Female</label><br><br>
+
+            <label for="age">Age :</label>
+            <input type="text" id="age"><br><br>
+
+            <label for="cities">City :</label>
+            <select name="cities" id="cities" >
+                <option value="lahore">Lahore</option>
+                <option value="islamabad">Islamabad</option>
+                <option value="karachi">Karachi</option>
+                <option value="zafarwal">Zafarwal</option>
+            </select><br><br>
+
+            <button id="rest" >reset</button>
+            <button id="add" onclick="myFunction()">add</button>
+            <button id="update">update</button>
+
+</form>
+
+</div>
+        <div id="tbl">
+            <table id="newTbl" border="1px"> 
+                <tr>
+                    <th>Name</th>
+                    <th>gender</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </tr>
+
+            </table>
+
+        </div>
+</body>
+</html>

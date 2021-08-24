@@ -1,3 +1,4 @@
+console.log("All ok");
 $(function () {
   //JQ will execute this function after page load
   //So do your bindings
@@ -15,7 +16,7 @@ function handleBtnClick() {
   }
   $("#newTodo").removeClass("error");
 
-  $("#newTodo").val(" ");
+  $("#newTodo").val(" "); 
   $("#todos").append("<li>" + newTodo + "</li>");
   $("#todos li ").click(removeMe);
   return;
